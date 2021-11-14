@@ -1,2 +1,2 @@
 go version
-echo "test123"
+ddosify -t example.com
