@@ -17,3 +17,9 @@ jobs:
         uses: ./
         with:
           args: "-t example.com"
+      
+      - name: Upload Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: ddosify-results
+          path: *.log
