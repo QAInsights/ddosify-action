@@ -6,8 +6,9 @@ jobs:
     steps:      
       - name: Checkout
         uses: actions/checkout@v2
-        
-      - name: Run ddosify tests
-        uses: ./
+
+      - name: Install Go
+      - uses: actions/setup-go@v2
         with:
-          args: ""
+          go-version: '1.9.3' # The Go version to download (if necessary) and use.
+      - run: go version
