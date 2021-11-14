@@ -24,7 +24,7 @@ Following are the prerequisites for this GitHub Action:
 
 ```
 - name: Ddosify Test
-  uses: QAInsights/ddosify-action@v1.0
+  uses: QAInsights/ddosify-action@v1.0.1
   with:
     args: "-t example.com"
     
