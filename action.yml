@@ -17,3 +17,8 @@ runs:
     steps:
       - run: ./script.sh ${{ inputs.args }}
         shell: bash 
+      - name: Upload Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: ddosify-results
+          path: *.log

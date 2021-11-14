@@ -1,4 +1,5 @@
-go version
-go install -v go.ddosify.com/ddosify@latest
+go version # Check Go version
 
-ddosify $@
+go install -v go.ddosify.com/ddosify@latest # Install ddosify
+
+ddosify $@ > $(date +%s).log # Run ddosify
