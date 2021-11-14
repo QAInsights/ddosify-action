@@ -10,6 +10,8 @@
 
 ddosify GitHub action for dev.to hackathon.
 
+![PerfAction for JMeter](./assets/ddosify-action.jpeg)
+
 # How to use this GitHub Action?
 
 ## Prerequisites
