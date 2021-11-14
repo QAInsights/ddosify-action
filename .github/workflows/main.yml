@@ -16,4 +16,4 @@ jobs:
       - name: Execute ddosify 
         uses: ./
         with:
-          args: ""
+          args: "-t example.com"
