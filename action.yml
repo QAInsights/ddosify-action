@@ -10,7 +10,7 @@ branding:
 inputs:
   args:
     required: true
-    description: Mandatory arguments. For more details https://github.com/ddosify/ddosify#readme
+    description: Mandatory arguments. For more details, please check https://github.com/ddosify/ddosify#readme
 
 runs:
     using: "composite"
