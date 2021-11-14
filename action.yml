@@ -1,0 +1,24 @@
+# action.yml
+name: ddosify action
+description: Run performance tests using ddosify
+author: NaveenKumar Namachivayam - https://qainsights.com
+
+branding:
+  color: blue
+  icon: feather
+
+inputs:
+  test-plan-path:
+    required: true
+    description: jmeter test plan to execute
+  args:
+    required: false
+    description: Optional arguments. For more details https://jmeter.apache.org/usermanual/get-started.html#non_gui
+
+runs:
+  steps:
+  - uses: actions/checkout@master
+  - uses: actions/setup-go@v2
+    with:
+      go-version: '1.9.3' # The Go version to download (if necessary) and use.
+  - run: go run hello.go
