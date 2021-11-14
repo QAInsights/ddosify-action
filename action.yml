@@ -5,12 +5,12 @@ author: NaveenKumar Namachivayam - https://qainsights.com
 
 branding:
   color: blue
-  icon: feather
+  icon: bar-chart-2
 
 inputs:
   args:
     required: true
-    description: Optional arguments. For more details https://jmeter.apache.org/usermanual/get-started.html#non_gui
+    description: Mandatory arguments. For more details https://github.com/ddosify/ddosify#readme
 
 runs:
     using: "composite"
