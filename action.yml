@@ -15,5 +15,5 @@ inputs:
 runs:
     using: "composite"
     steps:
-      - run: $GITHUB_ACTION_PATH/script.sh
+      - run: script.sh
         shell: bash 
