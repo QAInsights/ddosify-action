@@ -8,7 +8,7 @@
 
 ddosify GitHub action for dev.to hackathon.
 
-![ddosify action](./assets/ddosify-action.jpeg)
+![ddosify action](/assets/ddosify-action.jpeg)
 
 # How to use this GitHub Action?
 
