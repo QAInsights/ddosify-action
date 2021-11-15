@@ -8,8 +8,9 @@
 
 ddosify GitHub action for dev.to hackathon.
 
-![ddosify action](/assets/ddosify-action.jpeg)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/QAInsights/ddosify-action/main/assets/ddosify-action.jpeg" />
+</p>
 # How to use this GitHub Action?
 
 ## Prerequisites
